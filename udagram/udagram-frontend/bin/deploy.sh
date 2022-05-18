@@ -1,1 +1,1 @@
-aws s3 cp --recursive ./dist/out-tsc s3://teat-app/
+aws s3 cp --recursive ../www s3://aml-udagram-frontend/
