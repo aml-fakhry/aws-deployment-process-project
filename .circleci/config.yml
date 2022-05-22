@@ -27,18 +27,11 @@ jobs:
           command: |
             npm run backend:build
       - run:
-          name: Deploy App
+          name: Deploy frontend
           command: |
             npm run frontend:deploy
-
-Under jobs -> steps, we have added just after checkout a step to set up the AWS CLI aws-cli/setup. This will install and configure the AWS CLI on the CircleCI Server. The other thing we have changed inside the yml file is the addition of the last step for deploying:
-
       - run:
-          name: Deploy front App
-          command: |
-            npm run frontend:deploy
-
-      - run:
-          name: Deploy back App
+          name: Deploy backend
           command: |
             npm run backend:deploy
+

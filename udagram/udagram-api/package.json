@@ -9,7 +9,7 @@
     "prod": "tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json",
-    "deploy": "npm run build && eb deploy"
+    "deploy": "eb deploy"
   },
   "keywords": [],
   "author": "Aml",
