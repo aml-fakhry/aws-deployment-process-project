@@ -56,7 +56,11 @@
 
 - All the secrets found in the application are configured inside CircleCi and passed to the production application.
 
-![alt text](screenshots/9.workflow-circle-cli.png 'CircleCI secrets configuration')
+![alt text](screenshots/9.workflow-circle-cli.png 'CircleCI workflow')
+
+- screenshot of the CricleCi secrets
+
+![alt text](screenshots/app-circleci-settings-project-github-aml-fakhry-aws-deployment-process-project-environment-variablals.png 'CircleCI secrets configuration')
 
 ---
 
