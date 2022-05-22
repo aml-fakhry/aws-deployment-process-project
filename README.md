@@ -64,6 +64,6 @@ udagram is a full stack web application hosted on Amazon Web Services and is the
 
 ## Documentation
 
-Documentation about the architecture, infrastructure description, app dependencies, and the pipeline process are found inside the [docs](https://github.com/markdeleon01/mystore-fullstack/tree/main/docs) folder.
+Documentation about the architecture, infrastructure description, app dependencies, and the pipeline process are found inside the [docs](https://github.com/aml-fakhry/aws-deployment-process-project/tree/master/docs) folder.
 
 ---
