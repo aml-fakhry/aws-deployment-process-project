@@ -1,13 +1,69 @@
 # Hosting a Full-Stack Application
 
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/aml-fakhry/aws-deployment-process-project/12/workflows/d96c4a51-383c-49db-b110-996a3178dbe0)
+
 ### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
+
+udagram is a full stack web application hosted on Amazon Web Services and is the final project under Udacity's Full Stack JavaScript Developer Nanodegree Program.
 
 ---
 
-In this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. You will use the aws console to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. You will modify your package.json scripts and replace hard coded secrets with environment variables in your code.
+## Hosted links
 
-After the initial setup, you will learn to interact with the services you started on aws and will deploy manually the application a first time to it. As you get more familiar with the services and interact with them through a CLI, you will gradually understand all the moving parts.
+- Front-end link (UI)
+  http://aml-udagram-frontend.s3-website-us-east-1.amazonaws.com
 
-You will then register for a free account on CircleCi and connect your Github account to it. Based on the manual steps used to deploy the app, you will write a config.yml file that will make the process reproducible in CircleCi. You will set up the process to be executed automatically based when code is pushed on the main Github branch.
+- Back-end link (API) http://udagram-api-app-dev.us-east-1.elasticbeanstalk.com
 
-The project will also include writing documentation and runbooks covering the operations of the deployment process. Those runbooks will serve as a way to communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
+---
+
+# Amazon Web Services
+
+### AWS Simple Storage Service (S3)
+
+- s3 image
+
+  ![alt text](screenshots/5.buckets-files.png 'AWS S3')
+
+### AWS Elastic Beanstalk (EB)
+
+- check
+
+  ![alt text](screenshots/1-eb-check.png 'AWS EB')
+
+- Ok
+
+  ![alt text](screenshots/2.recent-event.png 'AWS EB')
+
+- Elastic Beanstalk configuration
+
+  ![alt text](screenshots/10.enviroment-variables.png 'Elastic Beanstalk configuration')
+
+### AWS Relational Database Service (RDS)
+
+![alt text](screenshots/6.RDS.png 'AWS RDS')
+
+---
+
+## CircleCI
+
+`This full stack web application is deployed with a CircleCI continuous integration pipeline.`
+
+**Pipeline Highlights**:
+
+1. Able to run install and build for both backend and front-end applications
+2. Able to deploy for both backend and front-end applications
+
+![alt text](screenshots/7.all-piplines.png 'CircleCI')
+
+- All the secrets found in the application are configured inside CircleCi and passed to the production application.
+
+![alt text](screenshots/9.workflow-circle-cli.png 'CircleCI secrets configuration')
+
+---
+
+## Documentation
+
+Documentation about the architecture, infrastructure description, app dependencies, and the pipeline process are found inside the [docs](https://github.com/markdeleon01/mystore-fullstack/tree/main/docs) folder.
+
+---
