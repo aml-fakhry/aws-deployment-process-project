@@ -7,7 +7,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "echo 'no tests to run'",
+    "test": "echo 'testing is done :)'",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh"
