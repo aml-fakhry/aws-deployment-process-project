@@ -2,9 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/aml-fakhry/aws-deployment-process-project/12/workflows/d96c4a51-383c-49db-b110-996a3178dbe0)
 
-### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
-
-udagram is a full stack web application hosted on Amazon Web Services and is the final project under Udacity's Full Stack JavaScript Developer Nanodegree Program.
+### **udagram is a full stack web application hosted on Amazon Web Services and is the final project under Udacity's Full Stack JavaScript Developer Nanodegree Program.**
 
 ---
 
