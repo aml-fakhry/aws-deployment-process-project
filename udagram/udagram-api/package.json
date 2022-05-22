@@ -9,6 +9,7 @@
     "prod": "tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json",
+    "test": "echo 'no tests to run'",
     "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh"
   },
   "keywords": [],
