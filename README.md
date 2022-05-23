@@ -8,6 +8,14 @@
 
 ## Hosted links
 
+- Udacity review about this project
+
+  ![alt text](screenshots/rev.png 'Udacity review')
+
+---
+
+## Hosted links
+
 - Front-end link (UI)
   http://aml-udagram-frontend.s3-website-us-east-1.amazonaws.com
 
