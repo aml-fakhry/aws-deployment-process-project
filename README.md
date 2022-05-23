@@ -2,6 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/aml-fakhry/aws-deployment-process-project/12/workflows/d96c4a51-383c-49db-b110-996a3178dbe0)
 
+[![AMS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://review.udacity.com/#!/reviews/3521870)
+
 ### **udagram is a full stack web application hosted on Amazon Web Services and is the final project under Udacity's Full Stack JavaScript Developer Nanodegree Program.**
 
 ---
